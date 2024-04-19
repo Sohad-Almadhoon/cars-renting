@@ -76,6 +76,6 @@ CarSchema.statics.generateStatistics = async function () {
     }
 };
 
-const CarModel = mongoose.models.Car as ICarModel || mongoose.model<ICarDocument, ICarModel>('Car', CarSchema);
+const Car = mongoose.models.Car as ICarModel || mongoose.model<ICarDocument, ICarModel>('Car', CarSchema);
 
-export default CarModel;
+export default Car;
