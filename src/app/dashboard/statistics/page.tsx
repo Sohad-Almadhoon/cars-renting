@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import Car from "@/app/api/cars/model";
 import Title from "@/components/shared/Title";
 import { getSession } from "@/lib/actions";

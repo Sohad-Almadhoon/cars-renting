@@ -1,3 +1,4 @@
+
 import { DataTable } from "@/components/cars/DataTable";
 import React from "react";
 import { columns } from "./columns";
